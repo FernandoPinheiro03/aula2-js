@@ -1,6 +1,8 @@
-let i = 1;
-
-while (i <= 10) {
-  console.log(`2 x ${i} = ${2 * i}`);
-  i++;
+for(let contador = 1; contador <= 10; contador++) {
+    
+    // Contatenação
+    console.log("2 x " + contador +  " = " + 2 * contador)
+    
+    // Interpolação
+    console.log(`2 x ${contador} = ${2*contador}`)
 }
